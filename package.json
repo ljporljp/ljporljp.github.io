@@ -1,8 +1,8 @@
 {
   "name": "tobea",
   "version": "0.0.1",
-  "description": "A VuePress project",
-  "license": "MIT",
+  "description": "to be a top blog",
+  "license": "GPLv3",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build docs",
