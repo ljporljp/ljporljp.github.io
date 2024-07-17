@@ -43,6 +43,10 @@ jobs:
           pnpm run docs:build
           > docs/.vuepress/dist/.nojekyll
 
+      - name: 绑定域名
+        run: |-
+          cd docs/.vuepress/dist && echo 'blog.tobea.top' > CNAME && cd -
+
       - name: 部署文档
         uses: crazy-max/ghaction-github-pages@v4
         with:
