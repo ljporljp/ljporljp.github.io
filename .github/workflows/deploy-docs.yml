@@ -49,5 +49,5 @@ jobs:
           # 这是文档部署到的分支名称
           target_branch: gh-pages
           build_dir: docs/.vuepress/dist
-        evn:
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
